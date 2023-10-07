@@ -83,7 +83,7 @@ jobs:
 
            - uses: jfrog/setup-jfrog-cli@v3
              env:
-              JF_URL: ${{ secrets.JF_URL }}
-              JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
+              JF_URL: http://localhost:8081/artifactory/libs-snapshot-local
+              JF_ACCESS_TOKEN: cmVmdGtuOjAxOjE3MjgyMTUzOTU6WEhCWVJueHZWME1Ea0NlTWprYXBYNjVxb1V2
              run: |
                jf rt ping
