@@ -35,8 +35,8 @@
       <muleVersion>4.4.0</muleVersion>
       <username>shyamsabbella</username>
       <password>Mahesh@667575</password>
-      <applicationName>NewProject</applicationName>
-      <environment>	Sandbox</environment>
+      <applicationName>MaheshProject</applicationName>
+      <environment>Sandbox</environment>
       <region>us-east-1</region>
       <workers>1</workers>
       <workerType>MICRO</workerType>
